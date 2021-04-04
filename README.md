@@ -14,7 +14,8 @@
 
 ## Output of Question-4
 ![alt text](Question4.JPG)
-##### To check the model, createasuperuser, or verify it in Python Shell
+##### The code uses the AbstractBaseUser, and the model is defined under the authenticationUser app.
+##### To check the model, create a superuser, or verify it in Python Shell. 
 
 ## Output of Question-5
 ##### I approached this question by using an APIView of Django-Rest framework, and I created an AJAX request in the index.html page which calls the API and gets the appropiate repsonse back. For the frontend I used Bootstrap.
