@@ -12,7 +12,8 @@ def recursive(x,n):
     if n==0:
         return n
     else:
-        (1/pow(x,n)) + recursive(x,n-1)
+        return float(1/x**n) + recursive(x,n-1)
+
 x = int(input("Enter the x: "))
 n = int(input("Enter the value of n: "))
 ans = recursive(x,n)
