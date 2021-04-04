@@ -42,6 +42,7 @@
                     data: fd,
                     success: function (response) {
                         console.log(response);
+                        p.append(response['data']);
                     },
                     error: function (error) {
                     },
